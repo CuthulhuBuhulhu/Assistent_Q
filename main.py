@@ -48,6 +48,9 @@ def jarvis(data):
         speak("Hold on Nils, I will show you where " + location + " is.")
         webbrowser.open("https://www.google.nl/maps/place/" + location + "/&amp;")
 
+    if "bye" in data:
+        speak("Bye!")
+
 
 # initialization
 time.sleep(2)
