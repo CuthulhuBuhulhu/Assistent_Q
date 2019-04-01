@@ -49,7 +49,7 @@ def jarvis(data):
         webbrowser.open("https://www.google.nl/maps/place/" + location + "/&amp;")
 
     if "bye" in data:
-        speak("Bye!")
+        speak("Bye Bye!")
 
 
 # initialization
